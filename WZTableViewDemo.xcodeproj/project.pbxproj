@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECE0EA0D1978ED2300F2F970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA0C1978ED2300F2F970 /* Foundation.framework */; };
+		ECE0EA0F1978ED2300F2F970 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA0E1978ED2300F2F970 /* CoreGraphics.framework */; };
+		ECE0EA111978ED2300F2F970 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA101978ED2300F2F970 /* UIKit.framework */; };
+		ECE0EA171978ED2300F2F970 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE0EA151978ED2300F2F970 /* InfoPlist.strings */; };
+		ECE0EA191978ED2300F2F970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA181978ED2300F2F970 /* main.m */; };
+		ECE0EA1D1978ED2300F2F970 /* WZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA1C1978ED2300F2F970 /* WZAppDelegate.m */; };
+		ECE0EA201978ED2300F2F970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE0EA1E1978ED2300F2F970 /* Main.storyboard */; };
+		ECE0EA231978ED2300F2F970 /* WZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA221978ED2300F2F970 /* WZViewController.m */; };
+		ECE0EA251978ED2300F2F970 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE0EA241978ED2300F2F970 /* Images.xcassets */; };
+		ECE0EA2C1978ED2300F2F970 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA2B1978ED2300F2F970 /* XCTest.framework */; };
+		ECE0EA2D1978ED2300F2F970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA0C1978ED2300F2F970 /* Foundation.framework */; };
+		ECE0EA2E1978ED2300F2F970 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE0EA101978ED2300F2F970 /* UIKit.framework */; };
+		ECE0EA361978ED2300F2F970 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE0EA341978ED2300F2F970 /* InfoPlist.strings */; };
+		ECE0EA381978ED2300F2F970 /* WZTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA371978ED2300F2F970 /* WZTableViewDemoTests.m */; };
+		ECE0EA4F1978EE2000F2F970 /* WZData.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA441978EE2000F2F970 /* WZData.m */; };
+		ECE0EA501978EE2000F2F970 /* WZPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA471978EE2000F2F970 /* WZPersonModel.m */; };
+		ECE0EA511978EE2000F2F970 /* WZDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA4A1978EE2000F2F970 /* WZDataSource.m */; };
+		ECE0EA521978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA4C1978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.m */; };
+		ECE0EA531978EE2000F2F970 /* WZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0EA4E1978EE2000F2F970 /* WZTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE0EA2F1978ED2300F2F970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE0EA011978ED2300F2F970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE0EA081978ED2300F2F970;
+			remoteInfo = WZTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECE0EA091978ED2300F2F970 /* WZTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE0EA0C1978ED2300F2F970 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE0EA0E1978ED2300F2F970 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECE0EA101978ED2300F2F970 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECE0EA141978ED2300F2F970 /* WZTableViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WZTableViewDemo-Info.plist"; sourceTree = "<group>"; };
+		ECE0EA161978ED2300F2F970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE0EA181978ED2300F2F970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE0EA1A1978ED2300F2F970 /* WZTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ECE0EA1B1978ED2300F2F970 /* WZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZAppDelegate.h; sourceTree = "<group>"; };
+		ECE0EA1C1978ED2300F2F970 /* WZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZAppDelegate.m; sourceTree = "<group>"; };
+		ECE0EA1F1978ED2300F2F970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE0EA211978ED2300F2F970 /* WZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZViewController.h; sourceTree = "<group>"; };
+		ECE0EA221978ED2300F2F970 /* WZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZViewController.m; sourceTree = "<group>"; };
+		ECE0EA241978ED2300F2F970 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECE0EA2A1978ED2300F2F970 /* WZTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE0EA2B1978ED2300F2F970 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECE0EA331978ED2300F2F970 /* WZTableViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WZTableViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		ECE0EA351978ED2300F2F970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE0EA371978ED2300F2F970 /* WZTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTableViewDemoTests.m; sourceTree = "<group>"; };
+		ECE0EA431978EE2000F2F970 /* WZData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZData.h; sourceTree = "<group>"; };
+		ECE0EA441978EE2000F2F970 /* WZData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZData.m; sourceTree = "<group>"; };
+		ECE0EA461978EE2000F2F970 /* WZPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPersonModel.h; sourceTree = "<group>"; };
+		ECE0EA471978EE2000F2F970 /* WZPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPersonModel.m; sourceTree = "<group>"; };
+		ECE0EA491978EE2000F2F970 /* WZDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDataSource.h; sourceTree = "<group>"; };
+		ECE0EA4A1978EE2000F2F970 /* WZDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDataSource.m; sourceTree = "<group>"; };
+		ECE0EA4B1978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WZTableViewCell+ConfigureForPerson.h"; sourceTree = "<group>"; };
+		ECE0EA4C1978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WZTableViewCell+ConfigureForPerson.m"; sourceTree = "<group>"; };
+		ECE0EA4D1978EE2000F2F970 /* WZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTableViewCell.h; sourceTree = "<group>"; };
+		ECE0EA4E1978EE2000F2F970 /* WZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE0EA061978ED2300F2F970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA0F1978ED2300F2F970 /* CoreGraphics.framework in Frameworks */,
+				ECE0EA111978ED2300F2F970 /* UIKit.framework in Frameworks */,
+				ECE0EA0D1978ED2300F2F970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE0EA271978ED2300F2F970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA2C1978ED2300F2F970 /* XCTest.framework in Frameworks */,
+				ECE0EA2E1978ED2300F2F970 /* UIKit.framework in Frameworks */,
+				ECE0EA2D1978ED2300F2F970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE0EA001978ED2300F2F970 = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA121978ED2300F2F970 /* WZTableViewDemo */,
+				ECE0EA311978ED2300F2F970 /* WZTableViewDemoTests */,
+				ECE0EA0B1978ED2300F2F970 /* Frameworks */,
+				ECE0EA0A1978ED2300F2F970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE0EA0A1978ED2300F2F970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA091978ED2300F2F970 /* WZTableViewDemo.app */,
+				ECE0EA2A1978ED2300F2F970 /* WZTableViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE0EA0B1978ED2300F2F970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA0C1978ED2300F2F970 /* Foundation.framework */,
+				ECE0EA0E1978ED2300F2F970 /* CoreGraphics.framework */,
+				ECE0EA101978ED2300F2F970 /* UIKit.framework */,
+				ECE0EA2B1978ED2300F2F970 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE0EA121978ED2300F2F970 /* WZTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA1B1978ED2300F2F970 /* WZAppDelegate.h */,
+				ECE0EA1C1978ED2300F2F970 /* WZAppDelegate.m */,
+				ECE0EA1E1978ED2300F2F970 /* Main.storyboard */,
+				ECE0EA211978ED2300F2F970 /* WZViewController.h */,
+				ECE0EA221978ED2300F2F970 /* WZViewController.m */,
+				ECE0EA481978EE2000F2F970 /* TableViewCell */,
+				ECE0EA421978EE2000F2F970 /* Data */,
+				ECE0EA451978EE2000F2F970 /* Model */,
+				ECE0EA241978ED2300F2F970 /* Images.xcassets */,
+				ECE0EA131978ED2300F2F970 /* Supporting Files */,
+			);
+			path = WZTableViewDemo;
+			sourceTree = "<group>";
+		};
+		ECE0EA131978ED2300F2F970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA141978ED2300F2F970 /* WZTableViewDemo-Info.plist */,
+				ECE0EA151978ED2300F2F970 /* InfoPlist.strings */,
+				ECE0EA181978ED2300F2F970 /* main.m */,
+				ECE0EA1A1978ED2300F2F970 /* WZTableViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE0EA311978ED2300F2F970 /* WZTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA371978ED2300F2F970 /* WZTableViewDemoTests.m */,
+				ECE0EA321978ED2300F2F970 /* Supporting Files */,
+			);
+			path = WZTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		ECE0EA321978ED2300F2F970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA331978ED2300F2F970 /* WZTableViewDemoTests-Info.plist */,
+				ECE0EA341978ED2300F2F970 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE0EA421978EE2000F2F970 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA431978EE2000F2F970 /* WZData.h */,
+				ECE0EA441978EE2000F2F970 /* WZData.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ECE0EA451978EE2000F2F970 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA461978EE2000F2F970 /* WZPersonModel.h */,
+				ECE0EA471978EE2000F2F970 /* WZPersonModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECE0EA481978EE2000F2F970 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECE0EA491978EE2000F2F970 /* WZDataSource.h */,
+				ECE0EA4A1978EE2000F2F970 /* WZDataSource.m */,
+				ECE0EA4B1978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.h */,
+				ECE0EA4C1978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.m */,
+				ECE0EA4D1978EE2000F2F970 /* WZTableViewCell.h */,
+				ECE0EA4E1978EE2000F2F970 /* WZTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE0EA081978ED2300F2F970 /* WZTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE0EA3B1978ED2400F2F970 /* Build configuration list for PBXNativeTarget "WZTableViewDemo" */;
+			buildPhases = (
+				ECE0EA051978ED2300F2F970 /* Sources */,
+				ECE0EA061978ED2300F2F970 /* Frameworks */,
+				ECE0EA071978ED2300F2F970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZTableViewDemo;
+			productName = WZTableViewDemo;
+			productReference = ECE0EA091978ED2300F2F970 /* WZTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE0EA291978ED2300F2F970 /* WZTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE0EA3E1978ED2400F2F970 /* Build configuration list for PBXNativeTarget "WZTableViewDemoTests" */;
+			buildPhases = (
+				ECE0EA261978ED2300F2F970 /* Sources */,
+				ECE0EA271978ED2300F2F970 /* Frameworks */,
+				ECE0EA281978ED2300F2F970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE0EA301978ED2300F2F970 /* PBXTargetDependency */,
+			);
+			name = WZTableViewDemoTests;
+			productName = WZTableViewDemoTests;
+			productReference = ECE0EA2A1978ED2300F2F970 /* WZTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE0EA011978ED2300F2F970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Raw;
+				TargetAttributes = {
+					ECE0EA291978ED2300F2F970 = {
+						TestTargetID = ECE0EA081978ED2300F2F970;
+					};
+				};
+			};
+			buildConfigurationList = ECE0EA041978ED2300F2F970 /* Build configuration list for PBXProject "WZTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE0EA001978ED2300F2F970;
+			productRefGroup = ECE0EA0A1978ED2300F2F970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE0EA081978ED2300F2F970 /* WZTableViewDemo */,
+				ECE0EA291978ED2300F2F970 /* WZTableViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE0EA071978ED2300F2F970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA251978ED2300F2F970 /* Images.xcassets in Resources */,
+				ECE0EA171978ED2300F2F970 /* InfoPlist.strings in Resources */,
+				ECE0EA201978ED2300F2F970 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE0EA281978ED2300F2F970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA361978ED2300F2F970 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE0EA051978ED2300F2F970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA531978EE2000F2F970 /* WZTableViewCell.m in Sources */,
+				ECE0EA501978EE2000F2F970 /* WZPersonModel.m in Sources */,
+				ECE0EA191978ED2300F2F970 /* main.m in Sources */,
+				ECE0EA1D1978ED2300F2F970 /* WZAppDelegate.m in Sources */,
+				ECE0EA4F1978EE2000F2F970 /* WZData.m in Sources */,
+				ECE0EA231978ED2300F2F970 /* WZViewController.m in Sources */,
+				ECE0EA511978EE2000F2F970 /* WZDataSource.m in Sources */,
+				ECE0EA521978EE2000F2F970 /* WZTableViewCell+ConfigureForPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE0EA261978ED2300F2F970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE0EA381978ED2300F2F970 /* WZTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE0EA301978ED2300F2F970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE0EA081978ED2300F2F970 /* WZTableViewDemo */;
+			targetProxy = ECE0EA2F1978ED2300F2F970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE0EA151978ED2300F2F970 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE0EA161978ED2300F2F970 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECE0EA1E1978ED2300F2F970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE0EA1F1978ED2300F2F970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE0EA341978ED2300F2F970 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE0EA351978ED2300F2F970 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE0EA391978ED2400F2F970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECE0EA3A1978ED2400F2F970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE0EA3C1978ED2400F2F970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZTableViewDemo/WZTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WZTableViewDemo/WZTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE0EA3D1978ED2400F2F970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZTableViewDemo/WZTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WZTableViewDemo/WZTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECE0EA3F1978ED2400F2F970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WZTableViewDemo.app/WZTableViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZTableViewDemo/WZTableViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WZTableViewDemoTests/WZTableViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECE0EA401978ED2400F2F970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WZTableViewDemo.app/WZTableViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZTableViewDemo/WZTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "WZTableViewDemoTests/WZTableViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE0EA041978ED2300F2F970 /* Build configuration list for PBXProject "WZTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE0EA391978ED2400F2F970 /* Debug */,
+				ECE0EA3A1978ED2400F2F970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE0EA3B1978ED2400F2F970 /* Build configuration list for PBXNativeTarget "WZTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE0EA3C1978ED2400F2F970 /* Debug */,
+				ECE0EA3D1978ED2400F2F970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECE0EA3E1978ED2400F2F970 /* Build configuration list for PBXNativeTarget "WZTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE0EA3F1978ED2400F2F970 /* Debug */,
+				ECE0EA401978ED2400F2F970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE0EA011978ED2300F2F970 /* Project object */;
+}
